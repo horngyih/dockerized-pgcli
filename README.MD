@@ -10,3 +10,5 @@ and the entry point for the container is the pgcli command-line interface.
 
     docker run -it --rm horngyih/pgcli:latest pgcli -U username -W -d db_name -h db_host
 
+For more information on the pgcli tool:-
+[pgcli](http://pgcli.com)

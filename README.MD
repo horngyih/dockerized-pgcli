@@ -6,7 +6,7 @@ The container produced is meant to be used to install and run pgcli locally,
 and the entry point for the container is the pgcli command-line interface.
 
 ## Example for use:-
-<docker run -it --rm horngyih/pgcli:latest pgcli <arguments>>
+    docker run -it --rm horngyih/pgcli:latest pgcli <arguments>
 
-<docker run -it --rm horngyih/pgcli:latest pgcli -U username -W -d db_name -h db_host>
+    docker run -it --rm horngyih/pgcli:latest pgcli -U username -W -d db_name -h db_host
 
